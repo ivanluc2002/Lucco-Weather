@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Fredoka';
+    src: url('Fredoka-Medium.woff2') format('woff2'),
+        url('Fredoka-Medium.woff') format('woff'),
+        url('Fredoka-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fredoka';
+    src: url('Fredoka-Bold.woff2') format('woff2'),
+        url('Fredoka-Bold.woff') format('woff'),
+        url('Fredoka-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fredoka';
+    src: url('Fredoka-Regular.woff2') format('woff2'),
+        url('Fredoka-Regular.woff') format('woff'),
+        url('Fredoka-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fredoka';
+    src: url('Fredoka-SemiBold.woff2') format('woff2'),
+        url('Fredoka-SemiBold.woff') format('woff'),
+        url('Fredoka-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fredoka';
+    src: url('Fredoka-Light.woff2') format('woff2'),
+        url('Fredoka-Light.woff') format('woff'),
+        url('Fredoka-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+

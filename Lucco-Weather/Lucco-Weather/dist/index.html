@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucco weather</title>
+    <link rel="stylesheet" href="./assets/vendors/vendors-css/normalize.min.css">
+    <link rel="stylesheet" href="assets/fonts/transfonter.org-20220308-094919/stylesheet.css">
+    <link rel="preload" href="Fredoka-Medium.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="./assets/styles/sweetalert2.min.css">
+    <link rel="stylesheet" href="./assets/styles/main.min.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+
+
+</head>
+
+<body>
+
+    <div class="app">
+        <section class="header-section">
+            <div id="titolo">
+                <h1 class="site-title">Lucco Weather</h1>
+
+
+            </div>
+
+            <form class="form" id="weatherForm">
+                <div class="search-container">
+                    <input type="text" name="search" placeholder="inserisci città" class="search-input">
+                    <a href="#" class="search-btn">
+                        <i class="fas fa-search"></i>
+                    </a>
+                </div>
+
+            </form>
+            <span class="msg"></span>
+        </section>
+        <section class="ajax-section container">
+
+            <div class="card-wrapper list-reset">
+
+            </div>
+
+
+        </section>
+    </div>
+
+    <script src="./assets/vendors/vendors-js/jquery.min.js"></script>
+    <script src="./assets/scripts/main.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+</body>
+
+</html>
